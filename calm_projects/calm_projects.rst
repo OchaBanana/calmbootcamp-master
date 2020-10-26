@@ -48,12 +48,12 @@ Configure users, cluster and network to use
 
 #. Click **+ User**, fill out the following fields and click **Save**:
 
-   - **Name** - SSP Power Users
+   - **Name** - SSP Consumers
    - **Role** - Consumer
 
 #. Click **+ User**, fill out the following fields and click **Save**:
 
-   - **Name** - SSP Basic Users
+   - **Name** - SSP Operators
    - **Role** - Operator
 
    .. figure:: images/projects_name_users.png
@@ -91,7 +91,7 @@ Now that we have set the users, their roles, which cluster and networks to use, 
 7. Network adapters
 8. Need of a serial port
 9. Connection configuration including general credentials
-    
+
 .. note::
   These parameters are set as DEFAULT parameters. Meaning you can change them in the Blueprints you are going to create and deploy.
 
@@ -104,25 +104,25 @@ As we are mostly using the Linux O/S in this workshop we are just configuring th
 #. In the **VM Configuration** area, provide the **vCPU, Cores per vCPU** and the **Memory (GiB)** fields with the value of **1**
 
 #. Under **DISKS (1)** Select the *CentOS7.qcow2* under the Image field. Leave the other options in this area of the configuration.
-   
+
    .. figure:: images/calm3/disk.png
 
 #. Under **NETWORK ADAPTERS (NICS)(1)** Select your Cluster name and Primary as the network. Make sure you have the **Private IP** set as *Dynamic*.
 
    .. figure:: images/calm3/network.png
 
-#. At the **CONNECTION** area, click on the Credential and select *Add New Credential*. As we are using in the Blueprints new setting, we still need to provide them to the Project. 
+#. At the **CONNECTION** area, click on the Credential and select *Add New Credential*. As we are using in the Blueprints new setting, we still need to provide them to the Project.
 
    .. figure:: images/calm3/credential.png
 
 #. In the new screen use root as the user and nutanix/4u as the password.
-  
+
    .. figure:: images/calm3/credential-2.png
 
 #. Click **Save** to save the project.
 
 #. After a few seconds, the system saves the project and configure itself so it can use the configuration, you should see that the Exclamation mark behind Environment should not be shown as we had before (see step 1).
-   
+
    .. figure:: images/calm3/environment-2.png
 
 Proceed to the next module of this workshop. The environment preparations have been completed.
