@@ -56,7 +56,7 @@ Configure users, cluster and network to use
    - **Name** - SSP Operators
    - **Role** - Operator
 
-   .. figure:: images/projects_name_users.png
+   .. figure:: images/projects_users.png
 
    .. note::
 
