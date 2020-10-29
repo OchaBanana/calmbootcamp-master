@@ -14,6 +14,7 @@
   calm_day2/calm_day2
   calm_marketplace/calm_marketplace
   calm_escript/calm_escript
+  calm_iaas/calm_iaas
 
 .. toctree::
   :maxdepth: 2
@@ -265,10 +266,10 @@ Each cluster has a dedicated domain controller VM, **DC**, responsible for provi
     - devuser01-devuser25
     - nutanix/4u
   * - SSP Consumers
-    - poweruser01-poweruser25
+    - consumer01-consumer25
     - nutanix/4u
   * - SSP Operators
-    - basicuser01-basicuser25
+    - operator01-operator25
     - nutanix/4u
   * - SSP Custom
     - user01-user25
